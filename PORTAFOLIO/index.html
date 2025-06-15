@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 >Schwerdt Alejo </h1>
+        <nav class="">
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Me llamo Schwerdt Alejo soy programador Junior</p>
+        <p>Actualmente me encuentro realizando la carrera Tecnico en programacion en la UTN</p>
+        <p>
+            Lenguajes:
+            <span class="badge">HTML</span>
+            <span class="badge">SQL</span>
+            <span class="badge">C#</span>
+            <span class="badge">C++</span>
+        </p>
+    </section>
+
+    <section id="projects">
+  <h2>Proyectos</h2>
+  <div class="projects-container">
+      <a href="https://github.com/Alejo-Schwerdt/Proyecto-MVC-2.0">
+          <div class="project-card">
+
+              <div class="carousel">
+                  <img src="imagenes/MVC1.jpg" class="carousel-image active" alt="Proyecto 1 imagen 1">
+                  <img src="imagenes/MVC2.jpg" class="carousel-image" alt="Proyecto 1 imagen 2">
+                  <img src="imagenes/MVC3.jpg" class="carousel-image" alt="Proyecto 1 imagen 3">
+              </div>
+
+              <h3>Proyecto MVC con Windows Forms</h3>
+              <p>Sistema con arquitectura MVC en C# y SQL Server.</p>
+
+          </div>
+      </a>
+
+      <div class="project-card">
+          <div class="carousel">
+              <img src="imagenes/proximamente.png" class="carousel-image active" alt="Proyecto próximamente 1">
+              <img src="imagenes/proximamente.png" class="carousel-image" alt="Proyecto próximamente 2">
+          </div>
+          <h3>Próximamente</h3>
+          <p>Proyecto MVC con Windows web</p>
+      </div>
+
+      <div class="project-card">
+          <div class="carousel">
+              <img src="imagenes/proximamente.png" class="carousel-image active" alt="Proyecto próximamente 3">
+              <img src="imagenes/proximamente.png" class="carousel-image" alt="Proyecto próximamente 4">
+          </div>
+          <h3>Próximamente</h3>
+          <p>¡Muy pronto novedades!</p>
+      </div>
+  </div>
+  <section id="contact">
+      <h2>Contacto</h2>
+
+      <p class="contact-info">
+          📧 Correo: <a href="mailto:alejoschwerdt2002@gmai.com">alejoschwerdt2002@gmail.com</a>
+      </p>
+
+      <form id="contact-form">
+          <input type="text" placeholder="Tu nombre" required />
+          <input type="email" placeholder="Tu correo" required />
+          <textarea placeholder="Tu mensaje"></textarea>
+          <button type="submit">Enviar</button>
+      </form>
+  </section>
+
+    <footer>
+        <p>&copy; 2025 Schwerdt Alejo. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
